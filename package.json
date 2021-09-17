@@ -1,0 +1,25 @@
+{
+  "name": "x-ray-tech-job-alert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayhomn/x-ray-tech-job-alert.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayhomn/x-ray-tech-job-alert/issues"
+  },
+  "homepage": "https://github.com/jayhomn/x-ray-tech-job-alert#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.6.3",
+    "puppeteer": "^10.2.0"
+  }
+}
