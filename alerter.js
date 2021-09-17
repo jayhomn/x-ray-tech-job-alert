@@ -73,6 +73,7 @@ bot.once("ready", () => {
     }
 
     browser.close();
+    process.exit();
   })();
 });
 
