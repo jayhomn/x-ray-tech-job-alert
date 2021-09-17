@@ -62,7 +62,7 @@ bot.once("ready", () => {
           name === "Radiological Technologist 1, General Procedures (RPT)") &&
         (jobType.replace(/\s+/g, "") === "FullTime" ||
           jobType.replace(/\s+/g, "") == "PartTime") &&
-        datePostedDate.getDate() === dateNow.getDate() - 1
+        datePostedDate.getDate() === dateNow.getDate()
       ) {
         bot.channels.cache
           .get(CHANNEL_ID)
