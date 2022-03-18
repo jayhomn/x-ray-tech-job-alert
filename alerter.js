@@ -59,7 +59,16 @@ bot.once("ready", () => {
 
       if (
         (name === "Radiological Technologist 1, General Procedures (RFT)" ||
-          name === "Radiological Technologist 1, General Procedures (RPT)") &&
+          name === "Radiological Technologist 1, General Procedures (RPT)" ||
+          name === "Radiological Technologist 3, Computed Tomography (RPT)" ||
+          name === "Radiological Technologist 3, Computed Tomography (RFT)" ||
+          name === "Radiological Technologist 3, Computed Tomography (TFT)" ||
+          name ===
+            "Radiological Technologist 3, Computed Tomography/ General Procedures (RFT)" ||
+          name ===
+            "Radiological Technologist 3, Computed Tomography/ General Procedures (RPT)" ||
+          name ===
+            "Radiological Technologist 3, Computed Tomography/ General Procedures (TFT)") &&
         (jobType.replace(/\s+/g, "") === "FullTime" ||
           jobType.replace(/\s+/g, "") == "PartTime") &&
         datePostedDate.getDate() === dateNow.getDate()
